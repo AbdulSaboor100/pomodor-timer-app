@@ -1,0 +1,15 @@
+.main_pomodoro{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
+    .pomodoro{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

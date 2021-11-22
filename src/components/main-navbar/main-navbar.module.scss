@@ -1,0 +1,78 @@
+.main_navbar{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
+
+    .work_area{
+        display: none;
+    }
+    .short_area{
+        display: none;
+    }
+
+    .long_area{
+        display: none;
+    }
+
+    .setting_area{
+        display: none;
+    }
+ 
+    .setting{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        cursor: pointer;
+        
+
+
+        h4{
+            font-size: 15px;
+            padding: 0.5rem 1rem;
+            background-color: rgb(15, 15, 36);
+            
+        }
+        h4:hover{
+            background-color:rgb(243, 148, 148) ;
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    .navbar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+
+        .div1,.div2,.div3{
+            background-color: rgb(15, 15, 36);
+            padding: 0rem 1rem;
+        }
+
+        h4{
+            padding: 0.5rem 1rem;
+            font-size: 17px;
+            position: relative;
+            top: 5px;
+        }
+        .div1:hover{
+            background-color: rgb(243, 148, 148);
+        }
+        .div2:hover{
+            background-color: rgb(243, 148, 148);
+        }
+
+        .div3:hover{
+            background-color: rgb(243, 148, 148);
+        }
+
+    }
+}
