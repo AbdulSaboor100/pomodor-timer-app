@@ -1,19 +1,30 @@
 export let data = {
-  addToCart : [],
+  workTime : [],
+  shortBreakTime : [],
+  longBreakTime : [],
     
 }
 
 export function reducer(state, action) {
     switch (action.type) {
-        case "ADD_TO_CART": {
-          let userClone = state.addToCart.slice(0)
-          userClone.push(action.payload)
-          console.log(userClone)
+        case "WORK_TIME": {
             return {
                 ...state,
-                addToCart: userClone
+                workTime: action.payload
             }
         }
+        case "SHORT_BREAK_TIME": {
+          return {
+              ...state,
+              shortBreakTime: action.payload
+          }
+      }
+      case "LONG_BREAK_TIME": {
+        return {
+            ...state,
+            longBreakTime: action.payload
+        }
+    }
         
         
         default:

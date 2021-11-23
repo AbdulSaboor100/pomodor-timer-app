@@ -7,17 +7,49 @@
 
     .work_area{
         display: none;
+        margin-top: 5rem;
     }
     .short_area{
         display: none;
+        margin-top: 5rem;
     }
 
     .long_area{
         display: none;
+        margin-top: 2rem;
+    }
+
+    h4{
+        padding: 3rem 0;
     }
 
     .setting_area{
         display: none;
+        margin-top: 5rem;
+
+        .div1{
+
+            input{
+                width: 4rem;
+                border-radius: 222rem;
+                height: 4rem;
+                background-color: rgb(12, 12, 22);
+                color: white;
+                text-align: center;
+                margin: 0 2px;
+            }
+        }
+        .div2{
+            margin-top: 2rem;
+
+            button{
+                border: none;
+                border-radius: 10px;
+                padding: 3px 10px;
+                background-color: rgb(236, 100, 100);
+                color: black;
+            }
+        }
     }
  
     .setting{
